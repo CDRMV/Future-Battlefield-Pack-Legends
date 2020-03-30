@@ -1,0 +1,10 @@
+MeshBlueprint {
+    LODs = {
+        {
+            MeshName = '/mods/Future Battlefield Pack/projectiles/CDFXenonitRocket01/CDFXenonitRocket01Unpacked01_lod0.scm',
+            AlbedoName = '/mods/Future Battlefield Pack/projectiles/CDFXenonitRocket01/CDFXenonitRocket01_albedo.dds',
+                    ShaderName = 'TMeshAlpha',
+            LODCutoff = 150,
+        },
+    },
+}

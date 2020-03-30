@@ -1,0 +1,335 @@
+UnitBlueprint {
+    AI = {
+        TargetBones = {
+            'UEB2109',
+        },
+    },
+    Audio = {
+        DeathExplosion = Sound {
+            Bank = 'UELDestroy',
+            Cue = 'UEB_Destroy_Lrg_PreDestroy',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        Destroyed = Sound {
+            Bank = 'UELDestroy',
+            Cue = 'UEB_Destroy_Med_Land',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        DoneBeingBuilt = Sound {
+            Bank = 'UEB',
+            Cue = 'UEB2109_Activate',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        UISelection = Sound {
+            Bank = 'Interface',
+            Cue = 'UEF_Select_Gun',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+    },
+    Buffs = {
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 1175,
+        },
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 1175,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 1175,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 1175,
+        },
+        {
+            Add = {
+                VeteranLevel5 = true,
+            },
+            BuffType = 'HEALTHREGENRATE',
+            Value = 2,
+        },
+    },
+    BuildIconSortPriority = 130,
+    Categories = {
+        'SELECTABLE',
+        'BUILTBYTIER3ENGINEER',
+        'UEF',
+        'STRUCTURE',
+        'DEFENSE',
+        'TECH3',
+        'ANTINAVY',
+        'DRAGBUILD',
+        'SIZE4',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+    },
+    CollisionOffsetY = -1,
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 18500,
+        MaxHealth = 18500,
+        RegenRate = 0,
+    },
+    Description = 'Heavy Torpedolauncher',
+    Display = {
+        Abilities = {
+            '<LOC ability_torpedo>Torpedoes',
+        },
+        IdleEffects = {
+            Water = {
+                Effects = {
+                    {
+                        Bones = {
+                            'UEB2109',
+                        },
+                        Type = 'SeaIdle02',
+                    },
+                },
+            },
+        },
+        Mesh = {
+            IconFadeInZoom = 130,
+            LODs = {
+                {
+                    LODCutoff = 50,
+                    ShaderName = 'Unit',
+                },
+                {
+                    AlbedoName = 'ueb2205b_albedo.dds',
+                    LODCutoff = 215,
+                    ShaderName = 'Unit',
+                    SpecularName = 'ueb2205b_specteam.dds',
+                },
+            },
+        },
+        PlaceholderMeshName = 'UXB0025',
+        SpawnRandomRotation = true,
+        UniformScale = 0.10,
+    },
+    Economy = {
+        BuildCostEnergy = 15000,
+        BuildCostMass = 2000,
+        BuildTime = 2000,
+        RebuildBonusIds = {
+            'ueb2205b',
+        },
+    },
+    Footprint = {
+        MinWaterDepth = 1.5,
+    },
+    General = {
+        Category = 'Defense',
+        Classification = 'RULEUC_Weapon',
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_CallTransport = false,
+            RULEUCC_Capture = false,
+            RULEUCC_Guard = false,
+            RULEUCC_Move = false,
+            RULEUCC_Nuke = false,
+            RULEUCC_Patrol = false,
+            RULEUCC_Reclaim = false,
+            RULEUCC_Repair = false,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Transport = false,
+        },
+        FactionName = 'UEF',
+        Icon = 'sea',
+        SelectionPriority = 5,
+        TechLevel = 'RULEUTL_Secret',
+        UnitName = 'Seadefender',
+        UnitWeight = 1,
+    },
+    Intel = {
+        SonarRadius = 32,
+        VisionRadius = 24,
+    },
+    Interface = {
+        HelpText = '<LOC Unit_Description_ueb2205b>Heavy Torpedolauncher',
+    },
+    LifeBarHeight = 0.075,
+    LifeBarOffset = 0.35,
+    LifeBarSize = 0.9,
+    Physics = {
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Air = false,
+            LAYER_Land = false,
+            LAYER_Orbit = false,
+            LAYER_Seabed = false,
+            LAYER_Sub = false,
+            LAYER_Water = true,
+        },
+        DragCoefficient = 0.2,
+        MaxSteerForce = 0,
+        MeshExtentsOffsetY = -0.5,
+        MeshExtentsX = 1.65,
+        MeshExtentsY = 1.15,
+        MeshExtentsZ = 1.65,
+        MinSpeedPercent = 0,
+        MotionType = 'RULEUMT_None',
+        SkirtOffsetX = -0.5,
+        SkirtOffsetZ = -0.5,
+        SkirtSizeX = 3,
+        SkirtSizeZ = 3,
+        TurnRate = 0,
+    },
+    SelectionSizeX = 1,
+    SelectionSizeZ = 1,
+    SelectionThickness = 0.5,
+    SizeX = 1.5,
+    SizeY = 1.8,
+    SizeZ = 1.5,
+    StrategicIconName = 'icon_structure3_antinavy',
+    StrategicIconSortPriority = 205,
+    Veteran = {
+        Level1 = 5,
+        Level2 = 10,
+        Level3 = 25,
+        Level4 = 50,
+        Level5 = 100,
+    },
+    Weapon = {
+        {
+            Audio = {
+                Fire = Sound {
+                    Bank = 'UELWeapon',
+                    Cue = 'UEB2205_Torpedo',
+                    LodCutoff = 'Weapon_LodCutoff',
+                },
+                FireUnderWater = Sound {
+                    Bank = 'UELWeapon',
+                    Cue = 'UEB2205_Torpedo_Water',
+                    LodCutoff = 'Weapon_LodCutoff',
+                },
+            },
+            BallisticArc = 'RULEUBA_None',
+            CollideFriendly = false,
+            Damage = 850,
+            DamageType = 'Normal',
+            DisplayName = 'Angler Torpedo',
+            FireTargetLayerCapsTable = {
+                Air = 'Seabed|Sub|Water',
+                Land = 'Seabed|Sub|Water',
+                Seabed = 'Seabed|Sub|Water',
+                Sub = 'Seabed|Sub|Water',
+                Water = 'Seabed|Sub|Water',
+            },
+            FiringTolerance = 2,
+            Label = 'Turret01',
+            MaxRadius = 80,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 6,
+            MuzzleVelocity = 5,
+            ProjectileId = '/projectiles/TANAnglerTorpedo02/TANAnglerTorpedo02_proj.bp',
+            ProjectileLifetime = 12,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle',
+                    },
+                    RackBone = 'Turret_Muzzle',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.001',
+                    },
+                    RackBone = 'Turret_Muzzle.001',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.002',
+                    },
+                    RackBone = 'Turret_Muzzle.002',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.003',
+                    },
+                    RackBone = 'Turret_Muzzle.003',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.004',
+                    },
+                    RackBone = 'Turret_Muzzle.004',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.005',
+                    },
+                    RackBone = 'Turret_Muzzle.005',
+                },
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle.006',
+                    },
+                    RackBone = 'Turret_Muzzle.006',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 0,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 0.8,
+            TargetCheckInterval = 1,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE, HOVER',
+            TrackingRadius = 1.15,
+            TurretBoneMuzzle = 'Turret_Muzzle',
+            TurretBonePitch = 'Turret',
+            TurretBoneYaw = 'Turret',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 0,
+            TurretPitchSpeed = 35,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 30,
+            Turreted = true,
+            WeaponCategory = 'Anti Navy',
+            WeaponRepackTimeout = 0,
+            WeaponUnpacks = false,
+        },
+    },
+    Wreckage = {
+        Blueprint = '/props/DefaultWreckage/DefaultWreckage_prop.bp',
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.9,
+        ReclaimTimeMultiplier = 1,
+        WreckageLayers = {
+            Air = false,
+            Land = false,
+            Seabed = false,
+            Sub = false,
+            Water = false,
+        },
+    },
+}

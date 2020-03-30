@@ -1,0 +1,297 @@
+UnitBlueprint {
+    Air = {
+        AutoLandTime = 1,
+        BankFactor = 3,
+        BankForward = false,
+        BreakOffDistance = 30,
+        BreakOffTrigger = 10,
+        CanFly = true,
+        KLift = 1,
+        KLiftDamping = 1,
+        KMove = 1,
+        KMoveDamping = 1,
+        KRoll = 2,
+        KRollDamping = 1,
+        KTurn = 1.5,
+        KTurnDamping = 1,
+        LiftFactor = 2,
+        MaxAirspeed = 22,
+        MaxEngineThrust = 20,
+        MaxEngineTorque = 10,
+        StartTurnDistance = 10,
+        Winged = true,
+    },
+    Audio = {
+        AirUnitWaterImpact = Sound {
+            Bank = 'Explosions',
+            Cue = 'Expl_Water_Lrg_01',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        AmbientMove = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Loop',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        Destroyed = Sound {
+            Bank = 'URADestroy',
+            Cue = 'URA_Destroy_Air',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        Killed = Sound {
+            Bank = 'URADestroy',
+            Cue = 'URA_Destroy_Air_Killed',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        Landing = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Land',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        MoveSharpTurn = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Thruster',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        StartMoveAir = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Thruster',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        StopMove = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Stop',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        TakeOff = Sound {
+            Bank = 'URA',
+            Cue = 'URA0101_Move_Start',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        UISelection = Sound {
+            Bank = 'Interface',
+            Cue = 'Cybran_Select_Air',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+    },
+    Buffs = {
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 1,
+        },
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 1,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 1,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 1,
+        },
+        {
+            Add = {
+                VeteranLevel5 = true,
+            },
+            BuffType = 'HEALTHREGENRATE',
+            Value = 1,
+        },
+    },
+    BuildIconSortPriority = 20,
+    Categories = {
+        'SELECTABLE',
+        'BUILTBYTIER2FACTORY',
+        'BUILTBYTIER3FACTORY',
+        'CYBRAN',
+        'MOBILE',
+        'AIR',
+        'HIGHALTAIR',
+        'TECH2',
+        'INTELLIGENCE',
+        'SCOUT',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+    },
+    CollisionOffsetY = 0,
+    CollisionOffsetZ = 0,
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 800,
+        MaxHealth = 800,
+        RegenRate = 0,
+    },
+    Description = 'Advanced Air Scout',
+    Display = {
+        LayerChangeEffects = {
+            AirLand = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URA0211',
+                        },
+                        Type = 'Landing01',
+                    },
+                },
+            },
+            LandAir = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URA0211',
+                        },
+                        Type = 'TakeOff01',
+                    },
+                },
+            },
+        },
+        Mesh = {
+            IconFadeInZoom = 130,
+            LODs = {
+                {
+                    LODCutoff = 120,
+                    ShaderName = 'Insect',
+                },
+                {
+                    AlbedoName = 'ura0202_albedo.dds',
+                    LODCutoff = 215,
+                    ShaderName = 'Insect',
+                    SpecularName = 'ura0202_specteam.dds',
+                },
+            },
+        },
+        MovementEffects = {
+            BeamExhaust = {
+                Bones = {
+                    'Exhaust',
+                },
+                Cruise = true,
+                Idle = true,
+            },
+        },
+        PlaceholderMeshName = 'UXA0010',
+        SpawnRandomRotation = true,
+        UniformScale = 0.6,
+    },
+    Economy = {
+        BuildCostEnergy = 2600,
+        BuildCostMass = 300,
+        BuildTime = 1000,
+    },
+    General = {
+        Category = 'Utility',
+        Classification = 'RULEUC_MilitaryAircraft',
+        CommandCaps = {
+            RULEUCC_Attack = false,
+            RULEUCC_CallTransport = true,
+            RULEUCC_Capture = false,
+            RULEUCC_Dock = true,
+            RULEUCC_Guard = true,
+            RULEUCC_Move = true,
+            RULEUCC_Nuke = false,
+            RULEUCC_Patrol = true,
+            RULEUCC_Reclaim = false,
+            RULEUCC_Repair = false,
+            RULEUCC_RetaliateToggle = false,
+            RULEUCC_Stop = true,
+            RULEUCC_Transport = false,
+        },
+        FactionName = 'Cybran',
+        Icon = 'air',
+        TechLevel = 'RULEUTL_Advanced',
+        UnitName = 'Observer',
+        UnitWeight = 1,
+    },
+    Intel = {
+        VisionRadius = 100,
+    },
+    Interface = {
+        HelpText = '<LOC Unit_Description_ura0202>Advanced Air Scout',
+    },
+    LifeBarHeight = 0.075,
+    LifeBarOffset = 0.2,
+    LifeBarSize = 0.5,
+    Physics = {
+        BankingSlope = 0.5,
+        BuildOnLayerCaps = {
+            LAYER_Air = true,
+            LAYER_Land = false,
+            LAYER_Orbit = false,
+            LAYER_Seabed = false,
+            LAYER_Sub = false,
+            LAYER_Water = false,
+        },
+        Elevation = 20,
+        FuelRechargeRate = 5,
+        FuelUseTime = 800,
+        MaxAcceleration = 10,
+        MaxSpeed = 15,
+        MaxSteerForce = 100,
+        MinSpeedPercent = 0.85,
+        MotionType = 'RULEUMT_Air',
+        TurnRadius = 100,
+        TurnRate = 100,
+    },
+    SelectionSizeX = 0.8,
+    SelectionSizeZ = 0.55,
+    SelectionThickness = 0.8,
+    SizeX = 0.4,
+    SizeY = 0.15,
+    SizeZ = 0.6,
+    StrategicIconName = 'icon_fighter2_intel',
+    StrategicIconSortPriority = 75,
+    Transport = {
+        AirClass = true,
+        TransportClass = 1,
+    },
+    Weapon = {
+        {
+            Damage = 10,
+            DamageFriendly = true,
+            DamageRadius = 1,
+            DamageType = 'Normal',
+            DisplayName = 'Air Crash',
+            DummyWeapon = true,
+            FireTargetLayerCapsTable = {
+                Air = 'Land|Water',
+                Land = 'Land|Water',
+            },
+            FiringTolerance = 2,
+            Label = 'DeathImpact',
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'AIR MOBILE',
+                'AIR MOBILE -INTELLIGENCE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            WeaponCategory = 'Death',
+        },
+    },
+    Wreckage = {
+        Blueprint = '/props/DefaultWreckage/DefaultWreckage_prop.bp',
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.9,
+        ReclaimTimeMultiplier = 1,
+        WreckageLayers = {
+            Air = false,
+            Land = true,
+            Seabed = false,
+            Sub = false,
+            Water = false,
+        },
+    },
+}

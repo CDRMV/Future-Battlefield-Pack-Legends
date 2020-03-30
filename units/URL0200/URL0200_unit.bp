@@ -1,0 +1,511 @@
+UnitBlueprint {
+    Audio = {
+        AmbientMoveLand = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Move_Loop',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        AmbientMoveWater = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Move_Water_Lp',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        Destroyed = Sound {
+            Bank = 'UELDestroy',
+            Cue = 'UEL_Destroy_Med_Land',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        EnterWater = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Into_Water',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        HoverKilledOnWater = Sound {
+            Bank = 'Explosions',
+            Cue = 'Expl_Water_Lrg_01',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        StartMove = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Move_Start',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        StopMove = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Move_Stop',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        TransitionWater = Sound {
+            Bank = 'UEL',
+            Cue = 'UEL0203_Into_Water',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+        UISelection = Sound {
+            Bank = 'Interface',
+            Cue = 'UEF_Select_Tank',
+            LodCutoff = 'UnitMove_LodCutoff',
+        },
+    },
+    Buffs = {
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 184,
+        },
+        {
+            Add = {
+                VeteranLevel2 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 184,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'MAXHEALTH',
+            Value = 184,
+        },
+        {
+            Add = {
+                VeteranLevel4 = true,
+            },
+            BuffType = 'HEALTH',
+            Value = 184,
+        },
+        {
+            Add = {
+                VeteranLevel5 = true,
+            },
+            BuffType = 'HEALTHREGENRATE',
+            Value = 2,
+        },
+    },
+    BuildIconSortPriority = 50,
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER2FACTORY',
+        'BUILTBYTIER3FACTORY',
+        'CYBRAN',
+        'MOBILE',
+        'LAND',
+        'TECH2',
+        'INTELLIGENCE',
+        'DIRECTFIRE',
+        'HOVER',
+        'RADAR',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYDIRECTFIRE',
+        'OVERLAYRADAR',
+    },
+    Defense = {
+        ArmorType = 'Normal',
+        Health = 1400,
+        MaxHealth = 1400,
+        RegenRate = 0,
+    },
+    Description = 'Medium Armor Amphibious Tank',
+    Display = {
+        Abilities = {
+            '<LOC ability_hover>Hover',
+            '<LOC ability_radar>Radar',
+        },
+        IdleEffects = {
+            Land = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Offset = {
+                            0,
+                            -0.01,
+                            0,
+                        },
+                        Type = 'Hover01',
+                    },
+                },
+            },
+            Water = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Offset = {
+                            0,
+                            -0.01,
+                            0,
+                        },
+                        Type = 'Hover01',
+                    },
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Offset = {
+                            0,
+                            -0.05,
+                            0,
+                        },
+                        Type = 'Hover01',
+                    },
+                },
+            },
+        },
+        Mesh = {
+            IconFadeInZoom = 130,
+            LODs = {
+                {
+                    LODCutoff = 100,
+                    ShaderName = 'Unit',
+                },
+                {
+                    AlbedoName = 'url0200_albedo.dds',
+                    LODCutoff = 215,
+                    ShaderName = 'Unit',
+                    SpecularName = 'url0200_specteam.dds',
+                },
+            },
+        },
+        MovementEffects = {
+            Land = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URL0200',
+		    	},
+                        Type = 'GroundKickup01',
+                    },
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Offset = {
+                            0,
+                            -0.05,
+                            0,
+                        },
+                        Type = 'Hover01',
+                    },
+                },
+            },
+            Water = {
+                Effects = {
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Scale = 0.3,
+                        Type = 'LeftFrontWake',
+                    },
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Scale = 0.3,
+                        Type = 'RightFrontWake',
+                    },
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Scale = 0.3,
+                        Type = 'BackWake',
+                    },
+                    {
+                        Bones = {
+                            'URL0200',
+                        },
+                        Offset = {
+                            0,
+                            -0.05,
+                            0,
+                        },
+                        Type = 'Hover01',
+                    },
+                },
+            },
+        },
+        PlaceholderMeshName = 'UXL0006',
+        SpawnRandomRotation = false,
+        UniformScale = 0.5,
+    },
+    Economy = {
+        BuildCostEnergy = 500,
+        BuildCostMass = 100,
+        BuildTime = 600,
+        TeleportEnergyMod = 0.15,
+        TeleportMassMod = 1,
+        TeleportTimeMod = 0.01,
+    },
+    General = {
+        Category = 'Direct Fire',
+        Classification = 'RULEUC_MilitaryVehicle',
+        CommandCaps = {
+            RULEUCC_Attack = true,
+            RULEUCC_CallTransport = true,
+            RULEUCC_Capture = false,
+            RULEUCC_Guard = true,
+            RULEUCC_Move = true,
+            RULEUCC_Nuke = false,
+            RULEUCC_Patrol = true,
+            RULEUCC_Reclaim = false,
+            RULEUCC_Repair = false,
+            RULEUCC_RetaliateToggle = true,
+            RULEUCC_Stop = true,
+            RULEUCC_Transport = false,
+        },
+        FactionName = 'Cybran',
+        Icon = 'amph',
+        TechLevel = 'RULEUTL_Advanced',
+        UnitName = 'XH-2 Supernova',
+        UnitWeight = 1,
+    },
+    Intel = {
+        RadarRadius = 45,
+        VisionRadius = 35,
+    },
+    Interface = {
+        HelpText = '<LOC Unit_Description_url0200>Hovertank',
+    },
+    LifeBarHeight = 0.09,
+    LifeBarOffset = 0.4,
+    LifeBarSize = 0.75,
+    Physics = {
+        BackUpDistance = 2,
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Air = false,
+            LAYER_Land = true,
+            LAYER_Orbit = false,
+            LAYER_Seabed = true,
+            LAYER_Sub = false,
+            LAYER_Water = false,
+        },
+        DragCoefficient = 0.2,
+        Elevation = 0.125,
+        MaxAcceleration = 0.4,
+        MaxBrake = 2,
+        MaxSpeed = 4,
+        MaxSpeedReverse = 1,
+        MaxSteerForce = 10,
+        MeshExtentsX = 1.3,
+        MeshExtentsY = 0.65,
+        MeshExtentsZ = 1.5,
+        MinSpeedPercent = 0,
+        MotionType = 'RULEUMT_Hover',
+        RotateBodyWhileMoving = true,
+        TurnFacingRate = 60,
+        TurnRadius = 25,
+        TurnRate = 23,
+        WobbleFactor = 0.05,
+        WobbleSpeed = 0.001,
+    },
+    SelectionSizeX = 0.55,
+    SelectionSizeZ = 0.8,
+    SelectionThickness = 0.6,
+    SizeX = 0.6,
+    SizeY = 0.25,
+    SizeZ = 0.8,
+    StrategicIconName = 'icon_land2_directfire',
+    StrategicIconSortPriority = 125,
+    Transport = {
+        TransportClass = 2,
+    },
+    Veteran = {
+        Level1 = 15,
+        Level2 = 30,
+        Level3 = 75,
+        Level4 = 150,
+        Level5 = 300,
+    },
+    Weapon = {
+        {
+            Audio = {
+                Fire = Sound {
+                    Bank = 'URLWeapon',
+                    Cue = 'URL0107_Laser_Auto',
+                    LodCutoff = 'Weapon_LodCutoff',
+                },
+            },
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 50,
+            DamageRadius = 1,
+            DamageType = 'Normal',
+            DisplayName = 'Light Pulse Laser',
+            FireTargetLayerCapsTable = {
+                Air = 'Land|Water',
+                Land = 'Land|Water',
+                Water = 'Land|Water',
+            },
+            FiringTolerance = 2,
+            Label = 'Lasergun01',
+            MaxRadius = 40,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 25,
+            ProjectileId = '/mods/future battlefield pack/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
+            ProjectileLifetime = 2.0,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle_L',
+                    },
+                    RackBone = 'Turret_Barrel_L',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 3,
+            SlavedToBody = true,
+            TargetCheckInterval = 0.16,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle_L',
+            TurretBonePitch = 'Turret_Barrel_L',
+            TurretBoneYaw = 'Turret_L',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 60,
+            TurretPitchSpeed = 45,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 90,
+            Turreted = true,
+            WeaponCategory = 'Direct Fire',
+            },
+            {
+            Audio = {
+                Fire = Sound {
+                    Bank = 'URLWeapon',
+                    Cue = 'URL0107_Laser_Auto',
+                    LodCutoff = 'Weapon_LodCutoff',
+                },
+            },
+            BallisticArc = 'RULEUBA_LowArc',
+            Buffs = {
+                {
+                    Add = {
+                        VeteranLevel1 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+                {
+                    Add = {
+                        VeteranLevel3 = true,
+                    },
+                    BuffType = 'DAMAGE',
+                    Value = 2,
+                },
+            },
+            CollideFriendly = false,
+            Damage = 50,
+            DamageRadius = 1,
+            DamageType = 'Normal',
+            DisplayName = 'Light Pulse Laser',
+            FireTargetLayerCapsTable = {
+                Air = 'Land|Water',
+                Land = 'Land|Water',
+                Water = 'Land|Water',
+            },
+            FiringTolerance = 2,
+            Label = 'Lasergun02',
+            MaxRadius = 40,
+            MuzzleSalvoDelay = 0,
+            MuzzleSalvoSize = 1,
+            MuzzleVelocity = 25,
+            ProjectileId = '/mods/future battlefield pack/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
+            ProjectileLifetime = 2.0,
+            ProjectilesPerOnFire = 1,
+            RackBones = {
+                {
+                    MuzzleBones = {
+                        'Turret_Muzzle_R',
+                    },
+                    RackBone = 'Turret_Barrel_R',
+                },
+            },
+            RackFireTogether = false,
+            RackRecoilDistance = 0,
+            RackReloadTimeout = 10,
+            RackSalvoChargeTime = 0,
+            RackSalvoReloadTime = 0,
+            RackSalvoSize = 1,
+            RackSlavedToTurret = false,
+            RateOfFire = 3,
+            SlavedToBody = true,
+            TargetCheckInterval = 0.16,
+            TargetPriorities = {
+                'SPECIALHIGHPRI',
+                'COMMAND',
+                'MOBILE',
+                'STRUCTURE DEFENSE',
+                'SPECIALLOWPRI',
+                'ALLUNITS',
+            },
+            TargetRestrictDisallow = 'UNTARGETABLE',
+            TurretBoneMuzzle = 'Turret_Muzzle_R',
+            TurretBonePitch = 'Turret_Barrel_R',
+            TurretBoneYaw = 'Turret_R',
+            TurretDualManipulators = false,
+            TurretPitch = 0,
+            TurretPitchRange = 60,
+            TurretPitchSpeed = 45,
+            TurretYaw = 0,
+            TurretYawRange = 180,
+            TurretYawSpeed = 90,
+            Turreted = true,
+            WeaponCategory = 'Direct Fire',
+        },
+    },
+    Wreckage = {
+        Blueprint = '/props/DefaultWreckage/DefaultWreckage_prop.bp',
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.9,
+        ReclaimTimeMultiplier = 1,
+        WreckageLayers = {
+            Air = false,
+            Land = true,
+            Seabed = false,
+            Sub = false,
+            Water = false,
+        },
+    },
+}
