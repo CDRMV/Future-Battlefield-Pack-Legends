@@ -222,6 +222,7 @@ UnitBlueprint {
     },
     Weapon = {
         {
+		    AboveWaterTargetsOnly = true,
             Audio = {
                 Fire = Sound {
                     Bank = 'UELWeapon',

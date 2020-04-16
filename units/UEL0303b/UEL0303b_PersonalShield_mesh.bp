@@ -3,7 +3,7 @@ MeshBlueprint {
     LODs = {
         {
             MeshName = '/mods/Future Battlefield Pack Legends/units/UEL0303b/uel0303b_lod0.scm',
-            AlbedoName = '/mods/Future Battlefield Pack Legends /units/UEL0303b/uel0303b_albedo.dds',
+            AlbedoName = '/mods/Future Battlefield Pack Legends/units/UEL0303b/uel0303b_albedo.dds',
             NormalsName = '/mods/Future Battlefield Pack Legends/units/UEL0303b/uel0303b_normalsTS.dds',
             SpecularName = '/mods/Future Battlefield Pack Legends/units/UEL0303b/uel0303b_specteam.dds',
             LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
