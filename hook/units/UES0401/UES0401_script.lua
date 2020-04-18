@@ -28,9 +28,9 @@ UES0401 = Class(TSubUnit) {
     OnCreate = function(self)
         TSubUnit.OnCreate(self)
         self.OpenAnimManips = {}
-        self.OpenAnimManips[1] = CreateAnimator(self):PlayAnim('/units/ues0401/ues0401_aopen.sca'):SetRate(-1)
+        self.OpenAnimManips[1] = CreateAnimator(self):PlayAnim('/mods/Future Battlefield Pack Legends/hook/units/ues0401/ues0401_aopen.sca'):SetRate(-1)
         for i = 2, 6 do
-            self.OpenAnimManips[i] = CreateAnimator(self):PlayAnim('/units/ues0401/ues0401_aopen0' .. i .. '.sca'):SetRate(-1)
+            self.OpenAnimManips[i] = CreateAnimator(self):PlayAnim('/mods/Future Battlefield Pack Legends/hook/units/ues0401/ues0401_aopen0' .. i .. '.sca'):SetRate(-1)
         end
         for k, v in self.OpenAnimManips do
             self.Trash:Add(v)

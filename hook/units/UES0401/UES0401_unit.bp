@@ -708,43 +708,18 @@ UnitBlueprint {
             MuzzleVelocity = 30,
             ProjectileId = '/projectiles/TAAMissileFlayer01/TAAMissileFlayer01_proj.bp',
             ProjectileLifetime = 6,
-            ProjectilesPerOnFire = 1,
+            ProjectilesPerOnFire = 6,
             RackBones = {
                 {
                     MuzzleBones = {
-                        'Turret_Muzzle_Left01.003',
+                        'Turret_L1_Muzzle_Left01',
+                        'Turret_L1_Muzzle_Right01',
+                        'Turret_L1_Muzzle_Left02',
+                        'Turret_L1_Muzzle_Right02',
+                        'Turret_L1_Muzzle_Left03',
+                        'Turret_L1_Muzzle_Right03',
                     },
-                    RackBone = 'Turret_Left02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right01.003',
-                    },
-                    RackBone = 'Turret_Left02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left02.003',
-                    },
-                    RackBone = 'Turret_Left02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right02.003',
-                    },
-                    RackBone = 'Turret_Left02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left03.003',
-                    },
-                    RackBone = 'Turret_Left02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right03.003',
-                    },
-                    RackBone = 'Turret_Left02_Barrel',
+                    RackBone = 'Turret_L1_Barrel',
                 },
             },
             RackFireTogether = false,
@@ -767,10 +742,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-            TrackingRadius = 84,
-            TurretBoneMuzzle = 'Turret_Left02_Barrel',
-            TurretBonePitch = 'Turret_Left02_Barrel',
-            TurretBoneYaw = 'Turret_Left02',
+            TrackingRadius = 1.4,
+            TurretBoneMuzzle = 'Turret_L1_Barrel',
+            TurretBonePitch = 'Turret_L1_Barrel',
+            TurretBoneYaw = 'Turret_L1',
             TurretDualManipulators = false,
             TurretPitch = 25,
             TurretPitchRange = 50,
@@ -831,43 +806,18 @@ UnitBlueprint {
             MuzzleVelocity = 30,
             ProjectileId = '/projectiles/TAAMissileFlayer01/TAAMissileFlayer01_proj.bp',
             ProjectileLifetime = 6,
-            ProjectilesPerOnFire = 1,
+            ProjectilesPerOnFire = 6,
             RackBones = {
                 {
                     MuzzleBones = {
-                        'Turret_Muzzle_Left01.002',
+                        'Turret_L2_Muzzle_Left01',
+                        'Turret_L2_Muzzle_Right01',
+                        'Turret_L2_Muzzle_Left02',
+                        'Turret_L2_Muzzle_Right02',
+                        'Turret_L2_Muzzle_Left03',
+                        'Turret_L2_Muzzle_Right03',
                     },
-                    RackBone = 'Turret_Left01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right01.002',
-                    },
-                    RackBone = 'Turret_Left01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left02.002',
-                    },
-                    RackBone = 'Turret_Left01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right02.002',
-                    },
-                    RackBone = 'Turret_Left01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left03.002',
-                    },
-                    RackBone = 'Turret_Left01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right03.002',
-                    },
-                    RackBone = 'Turret_Left01_Barrel',
+                    RackBone = 'Turret_L2_Barrel',
                 },
             },
             RackFireTogether = false,
@@ -890,10 +840,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-            TrackingRadius = 84,
-            TurretBoneMuzzle = 'Turret_Left01_Barrel',
-            TurretBonePitch = 'Turret_Left01_Barrel',
-            TurretBoneYaw = 'Turret_Left01',
+            TrackingRadius = 1.4,
+            TurretBoneMuzzle = 'Turret_L2_Barrel',
+            TurretBonePitch = 'Turret_L2_Barrel',
+            TurretBoneYaw = 'Turret_L2',
             TurretDualManipulators = false,
             TurretPitch = 25,
             TurretPitchRange = 50,
@@ -954,43 +904,18 @@ UnitBlueprint {
             MuzzleVelocity = 30,
             ProjectileId = '/projectiles/TAAMissileFlayer01/TAAMissileFlayer01_proj.bp',
             ProjectileLifetime = 6,
-            ProjectilesPerOnFire = 1,
+            ProjectilesPerOnFire = 6,
             RackBones = {
                 {
                     MuzzleBones = {
-                        'Turret_Muzzle_Left01.001',
+                        'Turret_R1_Muzzle_Left01',
+                        'Turret_R1_Muzzle_Right01',
+                        'Turret_R1_Muzzle_Left02',
+                        'Turret_R1_Muzzle_Right02',
+                        'Turret_R1_Muzzle_Left03',
+                        'Turret_R1_Muzzle_Right03',
                     },
-                    RackBone = 'Turret_Right01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right01.001',
-                    },
-                    RackBone = 'Turret_Right01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left02.001',
-                    },
-                    RackBone = 'Turret_Right01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right02.001',
-                    },
-                    RackBone = 'Turret_Right01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left03.001',
-                    },
-                    RackBone = 'Turret_Right01_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right03.001',
-                    },
-                    RackBone = 'Turret_Right01_Barrel',
+                    RackBone = 'Turret_R1_Barrel',
                 },
             },
             RackFireTogether = false,
@@ -1013,10 +938,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-            TrackingRadius = 84,
-            TurretBoneMuzzle = 'Turret_Right01_Barrel',
-            TurretBonePitch = 'Turret_Right01_Barrel',
-            TurretBoneYaw = 'Turret_Right01',
+            TrackingRadius = 1.4,
+            TurretBoneMuzzle = 'Turret_R1_Barrel',
+            TurretBonePitch = 'Turret_R1_Barrel',
+            TurretBoneYaw = 'Turret_R1',
             TurretDualManipulators = false,
             TurretPitch = 25,
             TurretPitchRange = 50,
@@ -1077,43 +1002,18 @@ UnitBlueprint {
             MuzzleVelocity = 30,
             ProjectileId = '/projectiles/TAAMissileFlayer01/TAAMissileFlayer01_proj.bp',
             ProjectileLifetime = 6,
-            ProjectilesPerOnFire = 1,
+            ProjectilesPerOnFire = 6,
             RackBones = {
                 {
                     MuzzleBones = {
-                        'Turret_Muzzle_Left01',
+                        'Turret_R2_Muzzle_Left01',
+                        'Turret_R2_Muzzle_Right01',
+                        'Turret_R2_Muzzle_Left02',
+                        'Turret_R2_Muzzle_Right02',
+                        'Turret_R2_Muzzle_Left03',
+                        'Turret_R2_Muzzle_Right03',
                     },
-                    RackBone = 'Turret_Right02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right01',
-                    },
-                    RackBone = 'Turret_Right02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left02',
-                    },
-                    RackBone = 'Turret_Right02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right02',
-                    },
-                    RackBone = 'Turret_Right02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Left03',
-                    },
-                    RackBone = 'Turret_Right02_Barrel',
-                },
-                {
-                    MuzzleBones = {
-                        'Turret_Muzzle_Right03',
-                    },
-                    RackBone = 'Turret_Right02_Barrel',
+                    RackBone = 'Turret_R2_Barrel',
                 },
             },
             RackFireTogether = false,
@@ -1136,10 +1036,10 @@ UnitBlueprint {
                 'ALLUNITS',
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
-            TrackingRadius = 84,
-            TurretBoneMuzzle = 'Turret_Right02_Barrel',
-            TurretBonePitch = 'Turret_Right02_Barrel',
-            TurretBoneYaw = 'Turret_Right02',
+            TrackingRadius = 1.4,
+            TurretBoneMuzzle = 'Turret_R2_Barrel',
+            TurretBonePitch = 'Turret_R2_Barrel',
+            TurretBoneYaw = 'Turret_R2',
             TurretDualManipulators = false,
             TurretPitch = 25,
             TurretPitchRange = 50,
