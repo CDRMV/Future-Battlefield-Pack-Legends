@@ -113,7 +113,6 @@ UnitBlueprint {
                     LODCutoff = 215,
                     ShaderName = 'Aeon',
                     SpecularName = 'url0107b_specteam.dds',
-                    NormalsName = '/mods/future battlefield pack/units/url0107b/url0107b_lod1_NormalsTS.dds',
                 },
             },
         },

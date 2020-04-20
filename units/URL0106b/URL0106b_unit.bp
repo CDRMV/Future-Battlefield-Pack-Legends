@@ -99,7 +99,6 @@ UnitBlueprint {
                     LODCutoff = 215,
                     ShaderName = 'Insect',
                     SpecularName = 'url0106b_specteam.dds',
-                    NormalsName = '/mods/future battlefield pack/units/url0106b/url0106b_lod1_NormalsTS.dds',
                 },
             },
         },

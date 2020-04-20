@@ -70,7 +70,7 @@ UnitBlueprint {
     },
     Description = 'Attack Walker',
     Display = {
-        AnimationWalk = '/mods/Future Battlefield Pack/units/URL0303c/URL0303c_Awalk.sca',
+        AnimationWalk = '/mods/Future Battlefield Pack Legends/units/URL0303c/URL0303c_Awalk.sca',
         AnimationWalkRate = 4.5,
         Mesh = {
             IconFadeInZoom = 130,
@@ -103,7 +103,7 @@ UnitBlueprint {
         SpawnRandomRotation = true,
         TransportAnimation = {
             {
-                Animation = '/mods/Future Battlefield Pack/units/URL0303c/URL0303c_Afold01.sca',
+                Animation = '/mods/Future Battlefield Pack Legends/units/URL0303c/URL0303c_Afold01.sca',
                 Weight = 100,
             },
         },
