@@ -71,7 +71,15 @@ UnitBlueprint {
     Description = 'Attack Walker',
     Display = {
         AnimationWalk = '/mods/Future Battlefield Pack Legends/units/URL0303c/URL0303c_Awalk.sca',
-        AnimationWalkRate = 4.5,
+        AnimationWalkRate = 2.0,
+		AnimationDeath = {
+            {
+                Animation = '/mods/Future Battlefield Pack Legends/units/URL0303c/URL0303c_Adeath01.sca',
+                AnimationRateMax = 1.25,
+                AnimationRateMin = 0.75,
+                Weight = 100,
+            },
+        },
         Mesh = {
             IconFadeInZoom = 130,
             LODs = {
@@ -107,7 +115,7 @@ UnitBlueprint {
                 Weight = 100,
             },
         },
-        UniformScale = 0.090,
+        UniformScale = 0.095,
     },
     Economy = {
         BuildCostEnergy = 1200,
@@ -234,15 +242,10 @@ UnitBlueprint {
             RackBones = {
                 {
                     MuzzleBones = {
-                        'Turret_Muzzle',
-                    },
-                    RackBone = 'Turret_Barrel',
-                    },
-		    {
-                    MuzzleBones = {
+					    'Turret_Muzzle',
                         'Turret_Muzzle2',
                     },
-                    RackBone = 'Turret_Barrel2',
+                    RackBone = 'Torso',
                 },
             },
             RackFireTogether = true,
@@ -268,8 +271,8 @@ UnitBlueprint {
             },
             TargetRestrictDisallow = 'UNTARGETABLE',
             TurretBoneMuzzle = 'Turret_Muzzle',
-            TurretBonePitch = 'Turret_Barrel',
-            TurretBoneYaw = 'Turret',
+            TurretBonePitch = 'Torso',
+            TurretBoneYaw = 'Torso',
             TurretDualManipulators = false,
             TurretPitch = -10,
             TurretPitchRange = 90,
