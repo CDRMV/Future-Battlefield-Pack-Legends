@@ -10,7 +10,7 @@
 TableCat = import('utilities.lua').TableCat
 EmtBpPath = '/effects/emitters/'
 EmitterTempEmtBpPath = '/effects/emitters/temp/'
-ModPath = '/mods/Future Battlefield Pack/hook/effects/Emitters/'
+ModPath = '/mods/Future Battlefield Pack Legends/hook/effects/Emitters/'
 
 
 # For gatling gun cooldown

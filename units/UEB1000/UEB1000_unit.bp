@@ -267,7 +267,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -302,7 +302,7 @@ UnitBlueprint {
             NeedPrep = false,           
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -337,7 +337,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Defense Drone_Launcher/UEF Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -372,7 +372,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -407,7 +407,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -442,7 +442,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/UEF Assault Drone_Launcher/UEF Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {

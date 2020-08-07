@@ -250,7 +250,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -285,7 +285,7 @@ UnitBlueprint {
             NeedPrep = false,           
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -320,7 +320,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -355,7 +355,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -390,7 +390,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -425,7 +425,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -460,7 +460,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -495,7 +495,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -530,7 +530,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Defense Drone_Launcher/Cybran Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -565,7 +565,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -600,7 +600,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -635,7 +635,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Cybran Assault Drone_Launcher/Cybran Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {

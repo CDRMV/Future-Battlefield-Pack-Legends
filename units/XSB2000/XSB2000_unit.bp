@@ -249,7 +249,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,         
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -284,7 +284,7 @@ UnitBlueprint {
             NeedPrep = false,           
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -319,7 +319,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -354,7 +354,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -389,7 +389,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -424,7 +424,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -459,7 +459,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -494,7 +494,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -529,7 +529,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Defense Drone_Launcher/Seraphim Defense Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -564,7 +564,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -599,7 +599,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {
@@ -634,7 +634,7 @@ UnitBlueprint {
             NeedPrep = false,            
             NoPause = true,
             NotExclusive = true,          
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/Seraphim Assault Drone_Launcher/Seraphim Assault Drone_Launcher_proj.bp',
             ProjectileLifetime = 30,
             RackBones = {
                 {

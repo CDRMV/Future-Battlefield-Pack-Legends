@@ -13,7 +13,7 @@ CDFXenonitRocket01 = Class(CCorsairRocketProjectile) {
 
     UpdateThread = function(self)
         WaitSeconds(0.15)
-        self:SetMesh('/mods/Future Battlefield Pack/projectiles/CDFXenonitRocket01/CDFXenonitRocket01UnPacked01_mesh')
+        self:SetMesh('/mods/Future Battlefield Pack Legends/projectiles/CDFXenonitRocket01/CDFXenonitRocket01UnPacked01_mesh')
         local army = self:GetArmy()
 
         # Polytrails offset to wing tips

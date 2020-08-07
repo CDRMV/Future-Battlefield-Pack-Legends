@@ -29,9 +29,9 @@ ProjectileBlueprint {
         Mesh = {
             LODs = {
                 {
-                    AlbedoName = '/mods/Future Battlefield Pack/projectiles/CDFTriponitRocket/CDFTriponitRocket_albedo.dds',
+                    AlbedoName = '/mods/Future Battlefield Pack Legends/projectiles/CDFTriponitRocket/CDFTriponitRocket_albedo.dds',
                     LODCutoff = 150,
-                    MeshName = '/mods/Future Battlefield Pack/projectiles/CDFTriponitRocket/CDFTriponitRocket_lod0.scm',
+                    MeshName = '/mods/Future Battlefield Pack Legends/projectiles/CDFTriponitRocket/CDFTriponitRocket_lod0.scm',
                     ShaderName = 'TMeshAlpha',
                 },
             },

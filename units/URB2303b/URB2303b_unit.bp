@@ -236,7 +236,7 @@ UnitBlueprint {
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 8,
 			PrefersPrimaryWeaponTarget = true,
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/CDFXenonitRocket01/CDFXenonitRocket01_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/projectiles/CDFXenonitRocket01/CDFXenonitRocket01_proj.bp',
             ProjectileLifetime = 8.4,
             ProjectilesPerOnFire = 1,
             RackBones = {

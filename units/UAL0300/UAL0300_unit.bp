@@ -281,7 +281,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 25,
-            ProjectileId = '/mods/future battlefield pack/hook/projectiles/adflaserlight02/adflaserlight02_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/hook/projectiles/adflaserlight02/adflaserlight02_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.15,
             ProjectilesPerOnFire = 1,
             RackBones = {

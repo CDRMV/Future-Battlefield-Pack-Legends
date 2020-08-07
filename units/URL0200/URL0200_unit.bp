@@ -366,7 +366,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 25,
-            ProjectileId = '/mods/future battlefield pack/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
             ProjectileLifetime = 2.0,
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -450,7 +450,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 25,
-            ProjectileId = '/mods/future battlefield pack/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Legends/hook/projectiles/cdflaserheavy01/cdflaserheavy01_proj.bp',
             ProjectileLifetime = 2.0,
             ProjectilesPerOnFire = 1,
             RackBones = {
