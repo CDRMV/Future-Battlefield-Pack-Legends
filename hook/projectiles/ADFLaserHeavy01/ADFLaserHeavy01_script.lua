@@ -10,7 +10,7 @@ local TurboLaserblueProjectile = Class(SinglePolyTrailProjectile) {
     FxTrails = {
 
     },
-    PolyTrail = '/mods/Future Battlefield Pack Legends/effects/Emitters/TurboLasergreen03_emit.bp',
+    PolyTrail = '/mods/Future Battlefield Pack Legends/effects/Emitters/Lasergreen03_emit.bp',
 
     # Hit Effects
     FxImpactUnit = EffectTemplate.TRiotGunHitUnit01,
