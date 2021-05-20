@@ -41,7 +41,7 @@ UnitBlueprint {
         MaxHealth = 8000,
         RegenRate = 0,
     },
-    Description = 'Multi Storage',
+    Description = 'Multi Storage (WIP Unit)',
     Display = {
         DamageEffects = {
             {

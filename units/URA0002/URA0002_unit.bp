@@ -228,7 +228,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0.1,
             MuzzleSalvoSize = 10,
             MuzzleVelocity = 120,
-            ProjectileId = '/mods/Future Battlefield Pack Legends/hook/projectiles/caaautocannon02/caaautocannon02_proj.bp',
+            ProjectileId = '/projectiles/CAAAutocannon01/CAAAutocannon01_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
             ProjectilesPerOnFire = 10,
             RackBones = {
@@ -303,7 +303,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0.1,
             MuzzleSalvoSize = 10,
             MuzzleVelocity = 120,
-            ProjectileId = '/mods/Future Battlefield Pack Legends/hook/projectiles/caaautocannon02/caaautocannon02_proj.bp',
+            ProjectileId = '/projectiles/CAAAutocannon01/CAAAutocannon01_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
             ProjectilesPerOnFire = 10,
             RackBones = {
