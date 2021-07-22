@@ -116,7 +116,7 @@ Description['urb5101b'] = "The newest Cybran advanced Wall Section absorbs allot
 
 Description['url0106b'] = "The Raider is an EMP Bot, which was developed to support the Gorath Sniperbot in an Squad. It is armed with an 3 Barrel EMP Granadepod on the head. The Granades deativates some enemy low tech Units in an restricted area around the impact."
 Description['url0106c'] = "The Gorath is based on the Raider, but armed with an single Benonitlaserbeampod on the head. The beam causes allot of damage on every low tech Landunit, but has an long load time."
-Description['url0107b'] = "The new Ultra medium tech escrot Bot is armed with two Walkinitlasercannons and two Anti Air Nanitemissielauncher. It is the perfectly Unit for support of some Unitsquads."
+Description['url0107b'] = "The new Ultra medium tech escort Bot is armed with two Walkinitlasercannons and two Anti Air Nanitemissielauncher. It is the perfectly Unit for support of some Unitsquads."
 Description['url0200'] = "The XH.2 Supernova is an Hovertank, which is good for attacks on Coastlines. He has a good Range and Firerate of his two Walkinitlasercannons."
 Description['url0303a'] = "The Shockwave is an Spiderbot, which is armed with two Heavy Granadelaunchers. His main task is to deactivate some enemy Landunits for the Stalkers."
 Description['url0303b'] = "The Stalker Mk 1 was designed for highgrade attacks on enemy Squads of Landunits or hte main Base. The Mk1 is armed with an single Microwavelasergun, which creates allot of damage or destroy a enemy Unit complett."

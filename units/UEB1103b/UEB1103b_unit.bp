@@ -99,8 +99,8 @@ UnitBlueprint {
         BuildCostMass = 56,
         BuildTime = 80,
         BuildRate = 10,
-        MaintenanceConsumptionPerSecondEnergy = 80,
-        ProductionPerSecondMass = 1,
+        MaintenanceConsumptionPerSecondEnergy = 4,
+        ProductionPerSecondMass = 3,
         BuildableCategory = {
             'ueb1202b',
         },

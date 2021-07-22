@@ -56,7 +56,7 @@ UnitBlueprint {
         },
         RegenRate = 0,
     },
-    Description = 'Experimental Shield Generator (WIP Unit)',
+    Description = 'Experimental Shield Generator',
     Display = {
         Mesh = {
             IconFadeInZoom = 200,

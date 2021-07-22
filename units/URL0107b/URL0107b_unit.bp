@@ -78,7 +78,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 1,
     },
-    Description = 'Escrot Bot',
+    Description = 'Escort Bot',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
