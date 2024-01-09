@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local AShieldHoverLandUnit = import('/lua/aeonunits.lua').AShieldHoverLandUnit
+local AShieldHoverLandUnit = import('/lua/defaultunits.lua').MobileUnit
 local ADFLaserLightWeapon = import('/lua/aeonweapons.lua').ADFLaserLightWeapon
 local EffectUtil = import('/lua/EffectUtilities.lua')
 

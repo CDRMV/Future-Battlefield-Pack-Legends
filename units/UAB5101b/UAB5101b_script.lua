@@ -7,7 +7,7 @@
 #**
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local AWallStructureUnit = import('/lua/aeonunits.lua').AWallStructureUnit
+local AWallStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 
 UAB5101b = Class(AWallStructureUnit) {
 }

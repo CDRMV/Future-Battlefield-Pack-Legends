@@ -7,7 +7,7 @@
 #** 
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local TWallStructureUnit = import('/lua/terranunits.lua').TWallStructureUnit
+local TWallStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 
 UEB5101b = Class(TWallStructureUnit) {
 }

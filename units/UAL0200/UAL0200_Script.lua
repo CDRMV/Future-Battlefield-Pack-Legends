@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local AHoverLandUnit = import('/lua/aeonunits.lua').AHoverLandUnit
+local AHoverLandUnit = import('/lua/defaultunits.lua').MobileUnit
 local AeonWeapons = import('/lua/aeonweapons.lua')
 local ADFCannonOblivionWeapon = AeonWeapons.ADFCannonOblivionWeapon
 

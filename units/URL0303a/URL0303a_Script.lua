@@ -7,7 +7,7 @@
 #**
 #**  Copyright © 2007 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local CWalkingLandUnit = import('/lua/cybranunits.lua').CWalkingLandUnit
+local CWalkingLandUnit = import('/lua/defaultunits.lua').WalkingLandUnit
 local CybranWeaponsFile = import('/lua/cybranweapons.lua')
 local CIFGrenadeWeapon = CybranWeaponsFile.CIFGrenadeWeapon
 

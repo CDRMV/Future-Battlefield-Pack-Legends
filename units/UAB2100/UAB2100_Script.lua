@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local AStructureUnit = import('/lua/aeonunits.lua').AStructureUnit
+local AStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 local AIFMortarWeapon = import('/lua/aeonweapons.lua').AIFMortarWeapon
 
 UAB2101 = Class(AStructureUnit) {

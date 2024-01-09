@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local CStructureUnit = import('/lua/cybranunits.lua').CStructureUnit
+local CStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 local CybranWeaponsFile = import('/lua/cybranweapons.lua')
 local CDFMissileMesonWeapon = CybranWeaponsFile.CDFMissileMesonWeapon
 

@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local CEnergyCreationUnit = import('/lua/cybranunits.lua').CEnergyCreationUnit
+local CEnergyCreationUnit = import('/lua/defaultunits.lua').StructureUnit
 
 URB1103b = Class(CEnergyCreationUnit) {
     AirEffects = {'/effects/emitters/hydrocarbon_smoke_01_emit.bp',},

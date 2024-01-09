@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local TShieldStructureUnit = import('/lua/terranunits.lua').TShieldStructureUnit
+local TShieldStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 
 UEB4301a = Class(TShieldStructureUnit) {
     

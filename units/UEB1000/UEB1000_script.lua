@@ -1,5 +1,5 @@
 
-local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
+local TStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 local util = import('/lua/utilities.lua')
 local fxutil = import('/lua/effectutilities.lua')
 local DroneWeapon  = import('/lua/cybranweapons.lua').CIFMissileLoaTacticalWeapon

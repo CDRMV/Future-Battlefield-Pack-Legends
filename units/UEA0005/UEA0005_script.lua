@@ -12,7 +12,7 @@
 #**  Copyright © 2015 Future Battlefield Pack  All rights reserved.
 #****************************************************************************
 
-local CAirUnit = import('/lua/cybranunits.lua').CAirUnit
+local CAirUnit = import('/lua/defaultunits.lua').AirUnit
 local EffectUtil = import('/lua/EffectUtilities.lua')
 local util = import('/lua/utilities.lua')
 local TAirToAirLinkedRailgun = import('/lua/terranweapons.lua').TAirToAirLinkedRailgun

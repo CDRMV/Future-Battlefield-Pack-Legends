@@ -7,7 +7,7 @@
 #** 
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local CEnergyStorageUnit = import('/lua/cybranunits.lua').CEnergyStorageUnit
+local CEnergyStorageUnit = import('/lua/defaultunits.lua').StructureUnit
 
 URB1304 = Class(CEnergyStorageUnit) {
     DestructionPartsChassisToss = {'URC1901'},

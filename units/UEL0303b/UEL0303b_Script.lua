@@ -9,7 +9,7 @@
 #****************************************************************************
 
 local TerranWeaponFile = import('/lua/terranweapons.lua')
-local TWalkingLandUnit = import('/lua/terranunits.lua').TWalkingLandUnit
+local TWalkingLandUnit = import('/lua/defaultunits.lua').WalkingLandUnit
 local TDFHeavyPlasmaCannonWeapon = TerranWeaponFile.TDFHeavyPlasmaCannonWeapon
 local TSAMLauncher = import('/lua/terranweapons.lua').TSAMLauncher
 

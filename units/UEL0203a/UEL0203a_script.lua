@@ -9,7 +9,7 @@
 #****************************************************************************
 
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local THoverLandUnit = import('/lua/terranunits.lua').THoverLandUnit
+local THoverLandUnit = import('/lua/defaultunits.lua').MobileUnit
 local TDFRiotWeapon = import('/lua/terranweapons.lua').TDFRiotWeapon
 
 UEL0203a = Class(THoverLandUnit) {

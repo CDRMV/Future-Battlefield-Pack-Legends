@@ -10,7 +10,7 @@
 #
 # Terran Bomber Script : UEA0102b
 #
-local TAirUnit = import('/lua/terranunits.lua').TAirUnit
+local TAirUnit = import('/lua/defaultunits.lua').AirUnit
 local TAirToAirLinkedRailgun = import('/lua/terranweapons.lua').TAirToAirLinkedRailgun
 
 UEA0102b = Class(TAirUnit) {

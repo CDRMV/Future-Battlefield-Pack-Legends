@@ -8,7 +8,7 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 
-local TSubUnit = import('/lua/terranunits.lua').TSubUnit
+local TSubUnit = import('/lua/defaultunits.lua').SubUnit
 local WeaponFile = import('/lua/terranweapons.lua')
 local TIFCruiseMissileLauncherSub = WeaponFile.TIFCruiseMissileLauncherSub
 

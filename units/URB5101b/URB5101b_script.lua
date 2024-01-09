@@ -7,7 +7,7 @@
 #**
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local CWallStructureUnit = import('/lua/cybranunits.lua').CWallStructureUnit
+local CWallStructureUnit = import('/lua/defaultunits.lua').StructureUnit
 
 URB5101b = Class(CWallStructureUnit) {
 }

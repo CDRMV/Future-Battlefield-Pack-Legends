@@ -7,7 +7,7 @@
 #**
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
-local TWalkingLandUnit = import('/lua/terranunits.lua').TWalkingLandUnit
+local TWalkingLandUnit = import('/lua/defaultunits.lua').WalkingLandUnit
 local Unit = import('/lua/sim/Unit.lua').Unit
 local TAMPhalanxWeapon = import('/lua/terranweapons.lua').TAMPhalanxWeapon
 

@@ -12,7 +12,7 @@
 # Additionally, if it goes underwater while building it needs to cancel the
 #   current order
 
-local TMobileFactoryUnit = import('/lua/terranunits.lua').TMobileFactoryUnit
+local TMobileFactoryUnit = import('/lua/defaultunits.lua').MobileUnit
 local WeaponsFile = import('/lua/terranweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFGaussCannonWeapon
 local TDFRiotWeapon = WeaponsFile.TDFRiotWeapon
