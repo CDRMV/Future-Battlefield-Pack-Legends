@@ -53,8 +53,8 @@ UnitBlueprint {
         Shield = {
             ImpactEffects = 'UEFShieldHit01',
             ImpactMesh = '/effects/entities/ShieldSection01/ShieldSection01_mesh',
-            Mesh = '/mods/Future Battlefield Pack/effects/Entities/Shield02/Shield02_mesh',
-            MeshZ = '/mods/Future Battlefield Pack/effects/Entities/Shield02/Shield02z_mesh',
+            Mesh = '/effects/entities/Shield01/Shield01_mesh',
+            MeshZ = '/effects/entities/Shield01/Shield01z_mesh',
             RegenAssistMult = 200,
             ShieldEnergyDrainRechargeTime = 15,
             ShieldMaxHealth = 30000,
