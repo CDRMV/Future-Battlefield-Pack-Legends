@@ -62,7 +62,7 @@ end,
 InitialDroneSpawn = function(self)
  
     -- Randomly determines which launch bay will be the first to spawn a drone
-    self.ActiveBay = Random(1,8)
+    self.ActiveBay = Random(1,12)
      
     -- Short delay after the carrier has been built
     WaitSeconds(3)
