@@ -144,14 +144,8 @@ UnitBlueprint {
             IconFadeInZoom = 130,
             LODs = {
                 {
-                    LODCutoff = 120,
-                    ShaderName = 'Insect',
-                },
-                {
-                    AlbedoName = 'ura0211_albedo.dds',
                     LODCutoff = 215,
                     ShaderName = 'Insect',
-                    SpecularName = 'ura0211_specteam.dds',
                 },
             },
         },
@@ -166,7 +160,7 @@ UnitBlueprint {
         },
         PlaceholderMeshName = 'UXA0002',
         SpawnRandomRotation = true,
-        UniformScale = 0.3,
+        UniformScale = 0.4,
     },
     Economy = {
         BuildCostEnergy = 8600,
@@ -227,7 +221,7 @@ UnitBlueprint {
         MaxSpeed = 0.5,
         MotionType = 'RULEUMT_Air',
     },
-    SelectionSizeX = 1.1,
+    SelectionSizeX = 1.5,
     SelectionSizeZ = 0.6,
     SelectionThickness = 0.37,
     SizeSphere = 1.6,
