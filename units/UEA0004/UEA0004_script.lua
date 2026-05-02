@@ -62,16 +62,14 @@ UEA0004 = Class(CAirUnit) {
     
 ########################################################################## 
 
-    OnCreate = function(self, builder, layer)
-    CAirUnit. OnCreate(self,builder,layer)    
+	OnStopBeingBuilt = function(self,builder,layer)
+        CAirUnit.OnStopBeingBuilt(self,builder,layer) 
         if not self:IsDead() then 
             ### Disables weapons
             self:SetWeaponEnabledByLabel('MainGun', false)
             self:SetScriptBit('RULEUCC_RetaliateToggle', false) 
                
-            ### Global Varibles 
-            self.BeamExhaustEffectsBag = {} 
-
+			
             ### Global booleans            
             self.BurnerActive = false
             self.Evade = false
@@ -303,28 +301,23 @@ UEA0004 = Class(CAirUnit) {
                 end 
             end 
         end 
-    end, 
-    
-    OnKilled = function(self, instigator, type, overkillRatio)
-        ### Disables weapons
-        self:SetWeaponEnabledByLabel('MainGun', false)
+    end,  
 
-        if self.BeamExhaustEffectsBag then 
-            ### Engine effects clean up 
-            EffectUtil.CleanupEffectBag(self,'BeamExhaustEffectsBag') 
-        end 
+	DeathThread = function( self, overkillRatio , instigator)  
+        self:DestroyAllDamageEffects()
 
-        ### Clears the current drone commands if any
-        IssueClearCommands(self)
+		if self.PlayDestructionEffects then
+            self:CreateDestructionEffects(overkillRatio)
+        end
 
-        ### Clears the offending drone from the parents table 
-        if not self.Parent:IsDead() then 
-            table.removeByValue(self.Parent.DroneTable, self) 
-            self.Parent = nil 
-        end 
-        
-        ### Final command to finish off the fighters death event 
-        CAirUnit.OnKilled(self, instigator, type, overkillRatio) 
-    end,                 
+        if self.ShowUnitDestructionDebris and overkillRatio then
+            self:CreateUnitDestructionDebris(true, true, overkillRatio > 2)
+        end
+		
+		self:CreateWreckage(overkillRatio or self.overkillRatio)
+
+        self:PlayUnitSound('Destroyed')
+        self:Destroy()
+    end,	
 }
 TypeClass = UEA0004

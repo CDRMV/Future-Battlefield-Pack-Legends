@@ -62,15 +62,12 @@ URA0002 = Class(CAirUnit) {
     
 ########################################################################## 
 
-    OnCreate = function(self, builder, layer)
-    CAirUnit. OnCreate(self,builder,layer)    
+	OnStopBeingBuilt = function(self,builder,layer)
+        CAirUnit.OnStopBeingBuilt(self,builder,layer)   
         if not self:IsDead() then 
             ### Disables weapons
             self:SetWeaponEnabledByLabel('MainGun', false)
             self:SetScriptBit('RULEUCC_RetaliateToggle', false) 
-               
-            ### Global Varibles 
-            self.BeamExhaustEffectsBag = {} 
 
             ### Global booleans            
             self.BurnerActive = false
@@ -303,28 +300,6 @@ URA0002 = Class(CAirUnit) {
                 end 
             end 
         end 
-    end, 
-    
-    OnKilled = function(self, instigator, type, overkillRatio)
-        ### Disables weapons
-        self:SetWeaponEnabledByLabel('MainGun', false)
-
-        if self.BeamExhaustEffectsBag then 
-            ### Engine effects clean up 
-            EffectUtil.CleanupEffectBag(self,'BeamExhaustEffectsBag') 
-        end 
-
-        ### Clears the current drone commands if any
-        IssueClearCommands(self)
-
-        ### Clears the offending drone from the parents table 
-        if not self.Parent:IsDead() then 
-            table.removeByValue(self.Parent.DroneTable, self) 
-            self.Parent = nil 
-        end 
-        
-        ### Final command to finish off the fighters death event 
-        CAirUnit.OnKilled(self, instigator, type, overkillRatio) 
-    end,               
+    end,              
 }
 TypeClass = URA0002 
